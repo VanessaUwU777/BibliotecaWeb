@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BibliotecaWeb</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f7f3ec;
+            color: #333;
+        }
+
+        header {
+            background-color: #5b4636;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .principal {
+            min-height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .contenido {
+            max-width: 750px;
+        }
+
+        .libro {
+            font-size: 70px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 45px;
+            color: #5b4636;
+            margin-bottom: 20px;
+        }
+
+        .descripcion {
+            font-size: 19px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .boton {
+            display: inline-block;
+            background-color: #8b6f47;
+            color: white;
+            padding: 14px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .boton:hover {
+            background-color: #5b4636;
+        }
+
+        footer {
+            background-color: #5b4636;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">📚 BibliotecaWeb</div>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="libros.html">Libro</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="principal">
+        <div class="contenido">
+
+            <div class="libro">📖</div>
+
+            <h1>Bienvenido a BibliotecaWeb</h1>
+
+            <p class="descripcion">
+               Un espacio para consultar y gestionar información
+               de nuestra biblioteca de manera sencilla y organizada.
+</p>
+
+<p><strong>Autora:</strong> Vanessa Hernández Hernández</p>
+
+<a href="libros.html" class="boton">Explorar biblioteca</a>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2026 BibliotecaWeb | Sistema de Biblioteca
+    </footer>
+
+</body>
+</html>
